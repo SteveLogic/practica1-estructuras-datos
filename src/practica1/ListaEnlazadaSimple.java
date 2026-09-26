@@ -10,12 +10,9 @@ public class ListaEnlazadaSimple {
         primero = null;
     }
 
-    // Getters
-    private NodoLista getPrimero() {
-        return primero;
-    }
+ 
 
-    // Setters
+ 
     private void setPrimero(NodoLista primero) {
         this.primero = primero;
     }
@@ -94,9 +91,7 @@ public class ListaEnlazadaSimple {
         }
 
         // Setters
-        public void setTicket(Ticket ticket) {
-            this.ticket = ticket;
-        }
+
 
         public void setSiguiente(NodoLista siguiente) {
             this.siguiente = siguiente;
